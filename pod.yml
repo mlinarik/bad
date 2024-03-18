@@ -6,3 +6,8 @@ spec:
   containers:
   - name: example
     image: gcr.io/google-samples/node-hello:1.0
+  automountServiceAccountToken: false
+  resources:
+    limits:
+      cpu: 0.5
+      memory: 100Mi
