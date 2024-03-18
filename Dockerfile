@@ -6,5 +6,5 @@ RUN npm install && npm run build
 ENV NODE_ENV=production
 COPY .env /usr/src/app/.env
 ENV TOKEN=$NODE_ENV.TOKEN
-ENV PASSWORD=tdw4976bfs290j
+ENV PW=tdw4976bfs290j
 CMD ["npm", "start"]
