@@ -7,4 +7,5 @@ ENV NODE_ENV=production
 COPY .env /usr/src/app/.env
 ARG TOKEN=$NODE_ENV.TOKEN
 ENV PW=tdw4976bfs290j
+USER 1000
 CMD ["npm", "start"]
