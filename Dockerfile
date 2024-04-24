@@ -1,4 +1,4 @@
-FROM nginx:1.19.0-alpine
+FROM nginx:1.26-alpine
 RUN apk add --no-cache python3
 COPY ./package.json /usr/src/app
 WORKDIR /usr/src/app
