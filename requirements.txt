@@ -1,2 +1,2 @@
 pandas==0.6.1
-pickledb=1.0
+pickledb==1.0
